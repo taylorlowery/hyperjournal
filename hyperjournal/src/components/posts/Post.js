@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Post = (props) => {
-    const id = props.match.params.id;
+    //const id = props.match.params.id;
   return (
     <div className="container section post-details">
         <div className="card z-depth-0">
