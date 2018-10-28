@@ -1,4 +1,4 @@
-initState = {}
+const initState = {}
 
 const postReducer = (state = initState, action) => {
 

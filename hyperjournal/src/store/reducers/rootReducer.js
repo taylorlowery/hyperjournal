@@ -5,7 +5,7 @@ import postReducer from './postReducer';
 
 const rootReducer = combineReducers({
     auth: authReducer,
-    project: projectReducer
+    post: postReducer
 });
 
 export default rootReducer;
