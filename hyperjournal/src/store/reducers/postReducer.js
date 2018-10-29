@@ -5,7 +5,14 @@ const initState = {
         {id: '3', title: '"Here\'s hacking at you, cyber-kid"', content:'My review of Casablanca if it were in the matrix.'}
     ]
 }
+
 const postReducer = (state = initState, action) => {
+
+    switch(action.type){
+        case 'CREATE_POST':
+            console.log('created post', action.post);
+    }
+
     return state;
 }
 
