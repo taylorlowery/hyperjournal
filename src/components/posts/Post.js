@@ -7,7 +7,6 @@ import { compose } from 'redux';
 const Post = (props) => {
     //const id = props.match.params.id;
     const { post }  = props;
-    console.log(post);
     if (post){
         return(
             <div className="container section post-details">
